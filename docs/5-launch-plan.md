@@ -1,16 +1,16 @@
-# Go-To-Market & Launch Checklist
+# Launch Plan & Check List
 
-## Marketing & User Acquisition
-- **Primary Launch Channel:** University student group chats (LINE and Discord), campus study groups, and Reddit (`r/SideProject`, `r/productivity`).
-- **Value Proposition:** Read a 4-minute voice note in 5 seconds without putting your headphones on.
+## How will I acquire users?
+- Where will I promote it: university student group chat apps (LINE and Discord), study groups at college, and Reddit (r/SideProject and r/productivity)
+- Pitch line: Listen to a 4-minute voice note in 5 seconds without taking out your headphones.
 
-## Pre-Launch Deployment Checklist
-- [ ] Verify all code changes are merged into the `main` production branch
-- [ ] Test audio file uploads and error messages for unsupported or oversized files
-- [ ] Run a cross-browser usability check (Chrome, Safari, and mobile screens)
-- [ ] Check that API keys are stored in environment variables and not committed to GitHub
+## Pre-Launch activities
+- [ ] Ensure all code is merged in the main branch
+- [ ] Check uploading various audio files and validate errors for incorrect file sizes or formats
+- [ ] Check for compatibility with Chrome, Safari, and mobile viewports
+- [ ] Double check my API keys stored in environment variables are not pushed in GitHub
 
-## Launch Day Operations
-- [ ] Trigger final deployment script on Vercel and check the live production URL
-- [ ] Conduct live verification testing directly on the hosted platform using a real voice note
-- [ ] Post the announcement and demo link across primary student channels
+## Launch day
+- [ ] Launch the app on Vercel and open the link to verify its loading status
+- [ ] Upload a real voice note on the live app and test the entire process
+- [ ] Share the link in student group chats and Reddit discussion threads
