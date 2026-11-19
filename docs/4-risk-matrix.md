@@ -1,10 +1,10 @@
-# Risk Mitigation & Technical Constraints
+# Major Risk and Contingency Plan
 
-## Core Technical Risks
-- **Highest Risk Feature:** `Audio File Upload` & Live Transcription
-- **The Hazard:** Messaging apps save voice notes in different audio formats (like `.opus` or `.ogg`) and large files can cause slow API responses, serverless timeouts, or rate-limit errors.
+## Greatest Technical Risk
+- **Riskiest Feature:** Audio File Upload and Transcription
+- **What Could Go Wrong:** Messaging applications have numerous options for saving voice messages (in .opus or .ogg format, for example), and huge audio files could cause transcription API to slow down or timeout or go over its usage rate.
 
-## The Pivot Strategy
-If our primary implementation for this feature fails or takes too long, our backup plan is to:
-1. Limit v1.0 uploads to `.mp3` and `.m4a` files under 10MB (about 10 minutes of audio) to avoid timeout and format conversion issues.
-2. Add pre-loaded sample voice notes with cached transcripts on the homepage so anyone testing the app can still try the summary feature if the live transcription API hits a limit.
+## Contingency Plan
+In case there are too many bugs when handling such a variety of audio formats or big files, I would do the following:
+1. Support only .mp3 and .m4a files under 10 MB size (approx. 10 minutes of audio file) initially to avoid timeouts and failure of file upload/ conversion.
+2. Have a couple of predefined voice messages with saved transcripts on the landing page to let users check out the transcript summarizing feature regardless of the API limitations.
