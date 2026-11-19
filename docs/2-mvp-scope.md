@@ -1,16 +1,17 @@
-# MVP Scope & Features List
+# MVP Scope & Features Backlog
 
-## The Ultimate Product Vision
-Skim AI extracts information from long voice notes and makes it available to students and busy people in bullet points to let them know what was said in the note without spending time to listen to 3-minute audio.
+## What the App Does
+Skim AI takes long voice messages and converts them into bullet points to help students and busy people understand what was said in a voice message without the need to listen to a 3-minute audio file.
 
-## The First Release Goal (v1.0 MVP)
-Release the first working product by December 15, 2026, concentrating only on its core value.
+## Launch Goal
+Create a minimum viable product by December 15, 2026 to address the core problem described above.
 
-## Feature Prioritization Matrix
-- **Must Have (MVP Lineup):**
-  * Voice Note Upload - Users will be able to upload voice note file in different formats such as .m4a, .mp3, .ogg from either their phone or laptop. This feature is critical for release first since the app won’t be able to summarize anything without audio.
-  * Audio-to-Text Transcription - Allows to transcribe audio in the form of text that will be used to get the text version from the audio file and later by the AI.
-  * AI Summary & Important Action Items - Creates 3 to 5 bullet point summary of the text and extracts important details such as dates, action items, questions etc.
-- **Nice to Have (Post-Launch Backlog):**
-  * Automatic Multilingual Translation - Automatically translates voice notes in other languages into English. Can wait since v1.0 should work perfectly with English language first.
-  * Adjustable Summary Length & Tone - Allows users to choose summary type: brief or detailed. Can wait since regular bullet points solve the problem.
+## Features
+### Must Have for MVP Launch:
+- **Upload Audio File:** Allows users to upload their voice notes (.m4a, .mp3, .ogg). This feature is crucial as otherwise, there will be nothing to convert to text.
+- **Transcription:** Turns voice messages into text for the AI to read and allows the user to check the transcription.
+- **Summary & Task Extraction:** Summarizes the transcript into 3-5 bullet points and extracts all dates, tasks or questions from the transcription.
+
+### Could Add Later:
+- **Automatic Translation:** Automatically translates voice messages from other languages to English. Is not necessary for the first MVP release as it should work well with English first.
+- **Multiple Summary Types:** Users get the ability to choose whether they want ultra-concise or more elaborate summary. Can be done later as the first one solves the problem.
