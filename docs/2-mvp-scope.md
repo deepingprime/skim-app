@@ -1,16 +1,16 @@
 # MVP Scope & Feature Backlog
 
 ## The Ultimate Product Vision
-Skim AI summarizes long voice messages into quick bullet points and action items so busy students and commuters can get the main point without listening to a 3-minute audio clip.
+Skim AI turns long voice messages into short bullet points so students and busy people can quickly see what someone said without listening to a 3 minute audio note.
 
 ## The Launch Goal (v1.0 MVP)
-To launch a functional version by **December 15, 2026** focusing strictly on core value.
+To launch a functional version by December 15, 2026 focusing strictly on core value.
 
 ## Feature Prioritization Matrix
 - **Must Have (MVP Lineup):**
-  * `Audio File Upload`: Lets users upload common voice note files (`.m4a`, `.mp3`, `.ogg`) directly from their phone or computer. Critical because it is the main entry point for the app.
-  * `Speech-to-Text Transcription`: Converts the uploaded audio into readable text so the AI can process it and users can double-check exact wording.
-  * `AI Summary & Action Item Extraction`: Generates a 3-to-5 bullet summary and pulls out specific questions, dates, or tasks mentioned in the message.
+  * Audio File Upload - Lets users upload voice note files (.m4a, .mp3, .ogg) from their phone or laptop. Need this first since you cant summarize anything without uploading the audio.
+  * Speech-to-Text Transcription - Turns the spoken audio into text so the AI can read it and the user can check the actual words if needed.
+  * AI Summary & Action Items - Makes a 3 to 5 bullet point summary of the transcript and pulls out important stuff like dates, tasks, or questions.
 - **Nice to Have (Post-Launch Backlog):**
-  * `Multi-Language Auto-Translation`: Translates foreign-language voice notes into English automatically. Deferred so v1.0 stays fast and focused on single-language accuracy.
-  * `Custom Summary Length & Tone`: Allows users to switch between ultra-short TL;DRs and detailed notes. Deferred because one clean default bullet format already solves the main problem.
+  * Multi-Language Auto-Translation - Translates voice notes from other languages into English automatically. Can wait because v1.0 just needs to work well in English first.
+  * Custom Summary Length & Tone - Lets users pick between super short or more detailed summaries. Can wait because normal bullet points already fix the main issue.
